@@ -1,0 +1,553 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+}
+
+header {
+  height: 10%;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container>div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+header a {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+
+main {
+  padding: 16px 57px;
+  height: 90%;
+}
+
+main img {
+  width: 100%;
+  height: 100%;
+}
+
+.textDesign {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.textDesign h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  /* or 121% */
+  color: #1a1a1a;
+}
+
+.textDesign p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  color: #aaaaaa;
+}
+
+.roomDesign {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 82px;
+  margin-bottom: 208px;
+}
+
+.room {
+  width: 49%;
+}
+
+.room img {
+  width: 100%;
+}
+
+.brendsText {
+  margin-top: 212px;
+  margin-bottom: 25px;
+}
+
+.brendsText h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+
+  text-align: center;
+
+  color: #1a1a1a;
+}
+
+.brendsText p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  color: #4a4a4a;
+}
+
+.logoBrends {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.logoBrends div {
+  width: 16%;
+  margin-top: 49px;
+  display: flex;
+  justify-content: center;
+}
+
+.meniBurger {
+  display: none;
+}
+
+.meniBurger img {
+  height: 50px;
+}
+
+.slider {
+  padding: 0 27px;
+}
+
+.slider img {
+  width: 100%;
+}
+
+.advantages h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #1a1a1a;
+  margin-top: 65px;
+}
+
+.advantages .container a {
+  text-decoration: none;
+  color:
+    #46856E;
+}
+
+.advantages p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #46856e;
+  margin-top: 15px;
+}
+
+.aItems {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 100px;
+  margin-right: 229px;
+  margin-left: 215px;
+}
+
+.REVIEWS {
+  margin-top: 237px;
+  height: 110vh;
+  background-image: url(Imges/Stars/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: 86%;
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  padding-left: 185px;
+  padding-top: 120px;
+}
+
+.REVIEWS h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+
+.REVIEWS p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+  color: #AAAAAA;
+}
+
+.text h2 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+  color: #000000;
+  margin-left: -300px;
+}
+
+.pictures {
+  margin-top: 165px;
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+}
+
+.pictures h1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36px;
+  color: #1A1A1A;
+}
+
+.pictures p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #AAAAAA;
+}
+
+.direct {
+  display: flex;
+  justify-content: space-around;
+}
+
+.purpose {
+  display: flex;
+  justify-content: space-around;
+}
+
+.design {
+  display: flex;
+  justify-content: space-around;
+}
+
+.direct div {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+}
+
+
+.slide {
+  height: 100vh;
+  background-image: url(Imges/Slide/Frame.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 288px;
+}
+
+
+.border {
+  margin-top: 286px;
+  height: 50vh;
+  width: 135vh;
+  padding-right: 500px;
+  border: 4px #F2F2F2 solid;
+  background-color: #F2F2F2;
+  margin-left: 15%;
+  display: flex;
+}
+
+.border div {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container {
+  display: flex;
+}
+
+.leftF {
+  width: 50%;
+  display: flex;
+}
+
+footer {
+  background-color: #2B2B2B;
+  height: 70vh;
+  padding-top: 50px;
+  margin-top: 79px;
+}
+
+.about,
+.showrooms,
+.support,
+.office {
+  display: flex;
+  flex-direction: column;
+}
+
+#f1 {
+  margin: 0 70px;
+}
+
+.about,
+.support {
+  margin-bottom: 47px;
+}
+
+footer a {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.followUs p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  margin-bottom: 17px;
+  color: #FFFFFF;
+}
+
+.followUs div img {
+  margin-right: 13px;
+}
+
+.rightF {
+  display: flex;
+  width: 50%;
+}
+
+.followUs {
+  width: 40%;
+}
+
+.feedBack {
+  width: 70%;
+}
+.feedBack p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+}
+
+input[type="text"] {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 3px;
+  background-color: transparent;
+  width: 327px;
+  height: 54px;
+}
+
+select {
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+input[type="checkbox"]{
+  border: none;
+  background-color: transparent;
+  width: 28px;
+  height: 26px;
+}
+.check{
+  margin-top: 93px;
+}
+.check span{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+color: rgba(255, 255, 255, 0.5);
+}
+input[type="submit"]{
+  border: none;
+  background-color: transparent;
+  margin-left: 380px;
+  margin-top: 58px;
+}
+input[value="Sign Up"]{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 60px;
+letter-spacing: 2.3px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.rot p{
+  color: red;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  transform: rotate(90deg);
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+  header .container div {
+    display: none;
+  }
+
+  .meniBurger {
+    display: block;
+  }
+
+  .container {
+    width: 90%;
+  }
+
+  .main {
+    height: fit-content;
+  }
+
+  header {
+    height: 10vh;
+  }
+
+  main {
+    height: fit-content;
+    padding: 10px;
+  }
+
+  .textDesign {
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .textDesign h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .textDesign p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .roomDesign {
+    display: flex;
+    flex-flow: column-reverse;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .room {
+    width: 100%;
+  }
+
+  .logoBrends {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+  }
+
+  .logoBrends img {
+    width: 75px;
+    height: 35px;
+  }
+
+  .brendsText h1 {
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .brendsText p {
+    font-size: 23px;
+  }
+
+  .brendsText {
+    margin-top: 25px;
+  }
+
+  .advantages .taga img {
+    width: 450px;
+  }
+}
