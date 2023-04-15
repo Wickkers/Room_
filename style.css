@@ -565,6 +565,13 @@ color: #FFFFFF;
 
   .meniBurger {
     display: block;
+    margin-right: 5%;
+  }
+  .main main{
+    margin-left: -5%;
+  }
+  .main main img{
+    width: 380px;
   }
 
   .container {
@@ -591,14 +598,16 @@ color: #FFFFFF;
   }
 
   .textDesign h1 {
-    width: 100%;
+    width:350px;
     text-align: center;
     font-size: 30px;
+    line-height: 35px;
   }
 
   .textDesign p {
-    width: 100%;
+    width: 350px;
     text-align: center;
+    line-height: 33px;
   }
 
   .roomDesign {
@@ -616,14 +625,16 @@ color: #FFFFFF;
   .logoBrends {
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
+    gap: 16%;
+    align-items: center;
+    width: 300px;
     margin-top: 60px;
-    margin-left: -15px;
+    margin-left: 15%;
   }
 
   .logoBrends img {
-    width: 35px;
-    height: 35px;
+    width: 65px;
+    height: 45px;
   }
 
   .brendsText h1 {
