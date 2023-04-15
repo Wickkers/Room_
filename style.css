@@ -52,6 +52,8 @@ main img {
 .textDesign {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 82px;
+  margin-bottom: 208px;
 }
 
 .textDesign h1 {
@@ -70,7 +72,6 @@ main img {
   font-weight: 400;
   font-size: 24px;
   line-height: 40px;
-  /* or 167% */
   color: #aaaaaa;
 }
 
@@ -80,6 +81,18 @@ main img {
   justify-content: space-between;
   margin-top: 82px;
   margin-bottom: 208px;
+}
+.roomDesign p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height, or 117% */
+
+
+color: #1A1A1A;
+
 }
 
 .room {
@@ -124,6 +137,8 @@ main img {
 .logoBrends {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 125px;
+  margin-bottom: 239px;
 }
 
 .logoBrends div {
@@ -158,6 +173,15 @@ main img {
   color: #1a1a1a;
   margin-top: 65px;
 }
+.advantages h2{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+color: #1A1A1A;
+
+}
 
 .advantages .container a {
   text-decoration: none;
@@ -170,7 +194,7 @@ main img {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 20px;
   letter-spacing: 0.75px;
   text-transform: uppercase;
   color: #46856e;
@@ -180,7 +204,7 @@ main img {
 .aItems {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
+  gap: 150px;
   margin-top: 100px;
   margin-right: 229px;
   margin-left: 215px;
@@ -245,51 +269,41 @@ main img {
   margin-left: -300px;
 }
 
-.pictures {
-  margin-top: 165px;
-  display: flex;
-  flex-direction: column;
-  gap: 65px;
+.works{
+  margin-top: 135px;
+  margin-bottom: 288px;
 }
 
-.pictures h1 {
+.work{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+.work h1{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 36px;
+color: #1A1A1A;
+}
+.work p{
   font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 36px;
-  color: #1A1A1A;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #AAAAAA;
+}
+.work img{
+  width: 60%;
+}
+.work div{
+  width: 35%;
+  align-self: center;
 }
 
-.pictures p {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #AAAAAA;
-}
 
-.direct {
-  display: flex;
-  justify-content: space-around;
-}
-
-.purpose {
-  display: flex;
-  justify-content: space-around;
-}
-
-.design {
-  display: flex;
-  justify-content: space-around;
-}
-
-.direct div {
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-}
 
 
 .slide {
@@ -303,19 +317,86 @@ main img {
 
 .border {
   margin-top: 286px;
-  height: 50vh;
+  height: 70vh;
   width: 135vh;
   padding-right: 500px;
   border: 4px #F2F2F2 solid;
   background-color: #F2F2F2;
   margin-left: 15%;
+  padding-left: 25%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shop p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+color: #1A1A1A;
+}
+.charge p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+color: #1A1A1A;
+}
+.turn p{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+color: #1A1A1A;
+}
+.pip #term{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #AAAAAA;
+margin-left: 43%;
+margin-top: 5%;
+
 }
 
-.border div {
-  display: flex;
-  justify-content: space-between;
+.pip .gat{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 100;
+font-size: 35px;
+line-height: 51px;
+text-align: center;
+color: #000000;
+width: 750px;
+margin-top: 5%;
 }
+.pip button{
+  border: none;
+  background-color: #46856E;
+  height: 5vh;
+  width: 13vh;
+  color: white;
+  margin-left: 45%;
+  margin-top: 15%;
+}
+.fog{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15%;
+  margin-left: 7%;
+}
+
 
 footer .container {
   display: flex;
@@ -468,7 +549,15 @@ color: #FFFFFF;
 
 
 
-
+@media (max-width: 1400px) {
+  
+}
+@media (max-width: 1200px) {
+  
+}
+@media (max-width: 768px) {
+  
+}
 @media (max-width: 576px) {
   header .container div {
     display: none;
@@ -517,6 +606,7 @@ color: #FFFFFF;
     flex-flow: column-reverse;
     align-items: center;
     gap: 15px;
+    margin-bottom: 55px;
   }
 
   .room {
@@ -526,28 +616,203 @@ color: #FFFFFF;
   .logoBrends {
     display: flex;
     flex-wrap: wrap;
-    width: 450px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: -15px;
   }
 
   .logoBrends img {
-    width: 75px;
+    width: 35px;
     height: 35px;
   }
 
   .brendsText h1 {
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 400;
+    margin-top: 55px;
   }
 
   .brendsText p {
     font-size: 23px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .brendsText {
     margin-top: 25px;
   }
 
-  .advantages .taga img {
+  .advantages .container .taga img{
+    width: 387px;
+    margin-left: -5%;
+  }
+  .advantages{
+    margin-top: -15px;
+  }
+  .advantages h1{
+    font-size: 25px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .advantages a{
+    margin-left: 10%;
+  }
+  .advantages .aItems{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-left:27%;
+  }
+  .aItems p{
+    font-size: 14px;
+    line-height: 15px;
+    width: 250px;
+  }
+  .REVIEWS{
+    height: 100vh;
+    width: 390px;
+  background-image: url(Imges/Stars/Rectangle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  margin-left: 0%;
+  padding-bottom: 35px;
+  padding-left: 45px;
+  margin-top: 65px;
+  margin-bottom: 55px;
+  }
+  .text h1{
+    font-size: 25px;
+    line-height: 25px;
+    width: 260px;
+  }
+  .text h2{
+    font-size: 29px;
+    width: 200px;
+    margin-left: -15%;
+    line-height: 35px;
+  }
+  .text{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  .work img{
+    width: 220px;
+    height: 330px;
+    display: flex;
+    align-self: center;
+  }
+  .work h1{
+    font-size: 25px;
+    width: 130px;
+  }
+  .work p{
+    font-size: 15px;
+  }
+  .slide {
+    height: 50vh;
+    width: 387px;
+    background-image: url(Imges/Pictures/Frame\ \(1\).png);
+    background-repeat: no-repeat;
+    margin-top: 288px;
+  }
+  .border .pip{
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+  }
+  .border{
+    border: 4px #F2F2F2 solid;
+  background-color: #F2F2F2;
+  height: 100vh;
+  width: 150px;
+  margin-left: -15%;
+  padding-right: 88%;
+  
+  }
+  .border div{
+    display: flex;
+    flex-direction: column;
+  }
+  .pip{
+    margin-left: 450px;
+  }
+  .pip .gat{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 51px;
+text-align: center;
+color: #000000;
+width: 250px;
+margin-left: -35%;
+  }
+  .pip button{
+    margin-left: -10%;
+  }
+  .shop p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+color: #1A1A1A;
+  }
+  .charge p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+color: #1A1A1A;
+  }
+  .turn p{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.75px;
+text-transform: uppercase;
+color: #1A1A1A;
+  }
+  .pip img{
+    height: 95px;
+    width: 100px;
+  }
+  .pip .fog div{
+    gap: 25px;
+    margin-left: -7%;
+  }
+  .pip #term{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #AAAAAA;
+margin-left: -15%;
+margin-top: -15%;
+  }
+  footer{
+    height: 150vh;
+  }
+  footer .container{
+    display: flex;
+    flex-direction: column;
+  }
+  .followUs, .feedBack{
+    display: flex;
+    flex-direction: column;
+  }
+  .check span{
     width: 450px;
   }
+
 }
